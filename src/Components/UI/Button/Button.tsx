@@ -1,6 +1,7 @@
-import React, { FC, ReactNode } from "react";
+import React, { ButtonHTMLAttributes, FC, ReactNode } from "react";
+import "./Button.style.scss";
 
-interface IButton {
+interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
 }
 

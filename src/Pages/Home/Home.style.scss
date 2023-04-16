@@ -1,0 +1,12 @@
+.container {
+  width: 502.92px;
+  height: 1533.57px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(176, 222, 255, 0.3) 0%,
+    rgba(223, 41, 255, 0) 35.37%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mix-blend-mode: lighten;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}

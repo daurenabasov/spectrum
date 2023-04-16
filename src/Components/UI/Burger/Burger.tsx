@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const Burger = () => {
+const Burger = ({ ...props }) => {
+  const burgerEl: Array<string> = Array.from({ length: 9 }, () => "");
+
   return (
-    <div>
-      
-    </div>
+    <>
+      <div {...props}>
+        {burgerEl.map((_el: string, id: number) => (
+          <span key={id}></span>
+        ))}
+      </div>
+    </>
   );
 };
 

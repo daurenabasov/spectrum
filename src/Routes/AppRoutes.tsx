@@ -5,7 +5,9 @@ import Home from "../Pages/Home/Home";
 const AppRoutes = () => {
   return (
     <Routes>
+      
       <Route path="/" element={<Home />} />
+      <Route path="/dex" element={<Home />} />
     </Routes>
   );
 };
